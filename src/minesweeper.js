@@ -10,3 +10,5 @@ const bombLine='  | B |  ';
 console.log(blankLine);
 console.log(guessLine);
 console.log(bombLine);
+
+//change
