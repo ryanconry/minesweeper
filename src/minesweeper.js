@@ -50,7 +50,7 @@ const getNumberOfNeighbourBombs = (bombBoard,rowIndex,columnIndex) => {
   return numberOfBombs;
 }
 
-const flipTyle = (playerBoard,bombBoard,rowIndex,columnIndex){
+const flipTile = (playerBoard,bombBoard,rowIndex,columnIndex) => {
   if(playerBoard[rowIndex][columnIndex] != ' '){
     console.log('This tyle has been flipped!');
     return;
